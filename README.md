@@ -5,21 +5,20 @@ This programm allows you to log data about your Volkswagen ID vehicle.
 It includes an iOS widget (using Scriptable) and a webpage for seeing current status and history graphs.
 
 <p align="center">
-  <img src="idView.png" width="500">
-  <img src="widget.png" width="300">
+  <img src="docs/img/idView.png" width="500">
+  <img src="docs/img/widget.png" width="300">
 </p>
 
 ## Setup
 
 ### Setup for beginners
 
-A quick heads-up beforehand: Setting this up for someone who has never setup a webserver before can be challenging.
-Don't worry though, the beginners guide tries to help you as much as possible and guides you through every step.
-The guide for beginners is currently being written. Please check back later!
+A quick heads-up beforehand: Setting this up for someone who has never set up a webserver before can be challenging.
+Don't worry though, the [beginners guide](docs/beginnerguide.md) tries to help you as much as possible and guides you through every step.
 
 ### Setup for advanced users.
 
-Prerequisites are: 
+Prerequisites are:
 - PHP 8 cli
 - A webserver serving .php files (PHP 8)
 - (strongly recommended) HTTPS enabled server with certificate
@@ -41,13 +40,13 @@ It is recommended to place them in the second level (not directly in webroot).
 
 Then copy the `.env.example` file as `.env` outside the webroot and edit the options within it.
 
-`env.php` looks for a `.env file two folders up from its location.
+`env.php` looks for a `.env` file two folders up from its location.
 (If you put the contents of the public folder in `/path/to/webroot/vwid/` it will look in `/path/to/.env`)
 If you place the files deeper inside the webroot, please consider editing env.php and configuring the correct path in the first line. It is strongly recommended keeping the .env file out of the webroot.
 
 You can alternatively set the environment variables through your webserver. (Or anything else that populates php's `$_ENV`)
 
-After successful start you can now visit idView.php or use the iOS widget after [setting it up](docs/iosWidget.md)!
+After successful start you can now visit idView.php or use the iOS widget after [setting it up](docs/ioswidget.md)!
 
 ## Disclaimer
 
