@@ -6,8 +6,7 @@ It includes an iOS widget (using Scriptable) and a webpage for seeing current st
 
 <p align="center">
   <img src="idView.png" width="500">
-  <img src="widget.png" width="300">
-  <img src="widgetcharging.png" width="300">
+  <img src="widgets.png" width="300">
 </p>
 
 ## Setup
