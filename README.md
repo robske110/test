@@ -5,8 +5,8 @@ This program allows you to log data about your Volkswagen ID vehicle.
 It includes an iOS widget (using Scriptable) and a webpage displaying current status, history graphs and charging sessions.
 
 <p align="center">
-  <img src="idViewNew.png" width="565">
-  <img src="widget_plus_chargingOverview.png" width="235">
+  <img src="idViewNew.png" width="547">
+  <img src="widget_plus_chargingOverview.png" width="253">
 </p>
 
 ## Setup
